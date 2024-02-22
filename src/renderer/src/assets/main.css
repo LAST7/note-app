@@ -13,10 +13,31 @@
 
         @apply select-none;
 
-        @apply bg-transparent;
+        @apply bg-slate-800;
 
         @apply font-mono antialiased text-white;
 
         @apply overflow-hidden;
+    }
+
+    /* allow the app to be dragged around */
+    header {
+        -webkit-app-region: drag;
+    }
+
+    button {
+        -webkit-app-region: no-drag;
+    }
+
+    ::-webkit-scrollbar {
+        @apply w-2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-[#555] rounded-md;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-transparent;
     }
 }
