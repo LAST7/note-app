@@ -1,7 +1,6 @@
 import clsx, { ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-// @ts-ignore api exported in preload scripts
 const dateFormatter = new Intl.DateTimeFormat(window?.context.locale, {
     dateStyle: "short",
     timeStyle: "short",

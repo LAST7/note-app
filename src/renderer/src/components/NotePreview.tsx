@@ -1,4 +1,4 @@
-import { cn, formatDateFromMS } from "@renderer/utils/utils";
+import { cn, formatDateFromMS } from "@renderer/utils";
 import { NoteInfo } from "@shared/models";
 import { ComponentProps } from "react";
 
