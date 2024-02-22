@@ -12,7 +12,7 @@ export const FloatingNoteTitle = ({ className, ...props }: ComponentProps<"div">
         return (
             <div
                 className={twMerge(
-                    "sticky top-0 bg-zinc-800 bg-opacity-75 z-10 text-center",
+                    "sticky top-0 bg-gray-700 bg-opacity-50 z-10 text-center",
                     className
                 )}
                 {...props}
